@@ -1,0 +1,28 @@
+<div id="menu"><h1 id="oh"></h1></div>
+<script>
+    var x=prompt("time");
+    if(x>0 && x<5){
+        document.getElementById("oh").innerHTML="Midnight";
+    }
+    else if(x>5 && x<10){
+        document.getElementById("oh").innerHTML="Early Morning";
+
+    }
+    else if(x>10 && x<15){
+        document.getElementById("oh").innerHTML="Noon";
+
+    }
+    else if(x>15 && x<17){
+        document.getElementById("oh").innerHTML="evening";
+
+    }
+    else if(x>17 && x<22){
+        document.getElementById("oh").innerHTML="Night";
+
+    }
+    else{
+        document.getElementById("oh").innerHTML="Wrong";
+
+    }
+
+</script>
